@@ -20,7 +20,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           lfs: true
-
+        # uses는 미리 만들어진 액션을 가져다 쓴다는 뜻이에요. 
+        # actions/checkout@v4는 GitHub 공식 액션이에요. 
+        # lfs: true는 Git LFS로 관리되는 대용량 파일(유니티 에셋 등)도 같이 받아오는 옵션
+      
       - name: Build WebGL
         uses: game-ci/unity-builder@v4
         env:
@@ -31,6 +34,8 @@ jobs:
           targetPlatform: WebGL
           buildName: webgl-build
 
+      # build Job이 끝나면 서버가 사라지기 때문에 
+      # deploy Job으로 파일을 넘기려면 여기에 저장해둬야 해요
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:

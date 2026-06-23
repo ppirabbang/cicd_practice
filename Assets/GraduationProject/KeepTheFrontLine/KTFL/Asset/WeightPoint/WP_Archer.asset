@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dfe6388f512f0e44b5201c0e9349a13, type: 3}
+  m_Name: WP_Archer
+  m_EditorClassIdentifier: 
+  _unitTypeName: Archer
+  _weights:
+    DamageDealtPositionWeight: 1
+    DamageDealtPositionDecay: 0.5
+    DamageReceivedPositionWeight: -0.1
+    DamageReceivedPositionDecay: 0.5
+    DistancePositionWeight: -0.1
+    DistancePositionThreshold: 10
+    HeightPositionWeight: 0.2
+    HealthTargetWeight: 1
+    DamageGivenTargetWeight: 1
+  _trainingEpisodes: 0
+  _trainingWinRate: 0
+  _isMLTrained: 0

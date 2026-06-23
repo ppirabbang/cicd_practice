@@ -1,0 +1,8 @@
+training map generator 2개로그 주석처리 (연결성 검사 통과, $"[TrainingMapGenerator] 완료 - {createdCount}개 Cell, Seed: {actualSeed}
+
+ai decisionLogger도 1개 로그 주석 처리(Debug.Log($"<color=cyan>===== [AI 턴 시작] Player {currentPlayer} =====</color>");) 106줄 
+
+unitspawner 도 2개 로그 주석 처리 (  //Debug.Log($"[TrainingUnitSpawner] Player {playerNumber} 유닛 {spawnedTotal}개 스폰 완료"); 302 줄                
+//Debug.Log($"[TrainingUnitSpawner] 이번 에피소드 유닛 구성: {string.Join(", ", parts)} (총 {total}개, 양 진영 동일)"); 425줄) 
+
+maprunner도 1개 로그 주석 처리 // Debug.Log("[TrainingMapRunner] 대칭 맵 생성 및 유닛 스폰 완료"); 49줄 

@@ -1,0 +1,184 @@
+{
+    "Cavalry": {
+        "elo": -114.19875512019547,
+        "checkpoints": [
+            {
+                "steps": 749998,
+                "file_path": "results\\selfplay01\\Cavalry\\Cavalry-749998.onnx",
+                "reward": -0.33750002086162567,
+                "creation_time": 1778457069.7785444,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Cavalry\\Cavalry-749998.pt"
+                ]
+            },
+            {
+                "steps": 799993,
+                "file_path": "results\\selfplay01\\Cavalry\\Cavalry-799993.onnx",
+                "reward": 0.2629363194425055,
+                "creation_time": 1778458256.7732923,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Cavalry\\Cavalry-799993.pt"
+                ]
+            },
+            {
+                "steps": 849990,
+                "file_path": "results\\selfplay01\\Cavalry\\Cavalry-849990.onnx",
+                "reward": 0.36884996585547924,
+                "creation_time": 1778459523.4989913,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Cavalry\\Cavalry-849990.pt"
+                ]
+            },
+            {
+                "steps": 899973,
+                "file_path": "results\\selfplay01\\Cavalry\\Cavalry-899973.onnx",
+                "reward": 0.3306557593840948,
+                "creation_time": 1778460850.8386338,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Cavalry\\Cavalry-899973.pt"
+                ]
+            },
+            {
+                "steps": 949513,
+                "file_path": "results\\selfplay01\\Cavalry\\Cavalry-949513.onnx",
+                "reward": 0.07399178565376335,
+                "creation_time": 1778462637.681293,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Cavalry\\Cavalry-949513.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 949513,
+            "file_path": "results\\selfplay01\\Cavalry.onnx",
+            "reward": 0.07399178565376335,
+            "creation_time": 1778462637.681293,
+            "auxillary_file_paths": [
+                "results\\selfplay01\\Cavalry\\Cavalry-949513.pt"
+            ]
+        }
+    },
+    "Archer": {
+        "elo": -163.6516289780458,
+        "checkpoints": [
+            {
+                "steps": 699979,
+                "file_path": "results\\selfplay01\\Archer\\Archer-699979.onnx",
+                "reward": -0.1436037506375994,
+                "creation_time": 1778457187.498252,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Archer\\Archer-699979.pt"
+                ]
+            },
+            {
+                "steps": 749998,
+                "file_path": "results\\selfplay01\\Archer\\Archer-749998.onnx",
+                "reward": 0.3841603249311447,
+                "creation_time": 1778458538.9792566,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Archer\\Archer-749998.pt"
+                ]
+            },
+            {
+                "steps": 799965,
+                "file_path": "results\\selfplay01\\Archer\\Archer-799965.onnx",
+                "reward": 0.30667812603971234,
+                "creation_time": 1778459762.1202939,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Archer\\Archer-799965.pt"
+                ]
+            },
+            {
+                "steps": 849987,
+                "file_path": "results\\selfplay01\\Archer\\Archer-849987.onnx",
+                "reward": 0.45194644914008675,
+                "creation_time": 1778460998.426608,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Archer\\Archer-849987.pt"
+                ]
+            },
+            {
+                "steps": 894421,
+                "file_path": "results\\selfplay01\\Archer\\Archer-894421.onnx",
+                "reward": 0.2331047083134763,
+                "creation_time": 1778462637.5596077,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Archer\\Archer-894421.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 894421,
+            "file_path": "results\\selfplay01\\Archer.onnx",
+            "reward": 0.2331047083134763,
+            "creation_time": 1778462637.5596077,
+            "auxillary_file_paths": [
+                "results\\selfplay01\\Archer\\Archer-894421.pt"
+            ]
+        }
+    },
+    "Halberdier": {
+        "elo": -132.8066071995841,
+        "checkpoints": [
+            {
+                "steps": 849988,
+                "file_path": "results\\selfplay01\\Halberdier\\Halberdier-849988.onnx",
+                "reward": 0.8119759202003479,
+                "creation_time": 1778457794.0275457,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Halberdier\\Halberdier-849988.pt"
+                ]
+            },
+            {
+                "steps": 899981,
+                "file_path": "results\\selfplay01\\Halberdier\\Halberdier-899981.onnx",
+                "reward": 0.15036769211292267,
+                "creation_time": 1778458964.8082442,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Halberdier\\Halberdier-899981.pt"
+                ]
+            },
+            {
+                "steps": 949990,
+                "file_path": "results\\selfplay01\\Halberdier\\Halberdier-949990.onnx",
+                "reward": 0.15958514038858743,
+                "creation_time": 1778460146.3353293,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Halberdier\\Halberdier-949990.pt"
+                ]
+            },
+            {
+                "steps": 999985,
+                "file_path": "results\\selfplay01\\Halberdier\\Halberdier-999985.onnx",
+                "reward": 0.17000125534832478,
+                "creation_time": 1778461278.9306066,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Halberdier\\Halberdier-999985.pt"
+                ]
+            },
+            {
+                "steps": 1036415,
+                "file_path": "results\\selfplay01\\Halberdier\\Halberdier-1036415.onnx",
+                "reward": -0.08125668382033324,
+                "creation_time": 1778462637.6208873,
+                "auxillary_file_paths": [
+                    "results\\selfplay01\\Halberdier\\Halberdier-1036415.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1036415,
+            "file_path": "results\\selfplay01\\Halberdier.onnx",
+            "reward": -0.08125668382033324,
+            "creation_time": 1778462637.6208873,
+            "auxillary_file_paths": [
+                "results\\selfplay01\\Halberdier\\Halberdier-1036415.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

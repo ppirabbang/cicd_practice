@@ -22,6 +22,7 @@ jobs:
           lfs: true
         # uses는 미리 만들어진 액션을 가져다 쓴다는 뜻이에요. 
         # actions/checkout@v4는 GitHub 공식 액션이에요. 
+        # 레포지토리에 있는 코드를 GitHub Actions 서버로 복사해오는 기능
         # lfs: true는 Git LFS로 관리되는 대용량 파일(유니티 에셋 등)도 같이 받아오는 옵션
       
       - name: Build WebGL

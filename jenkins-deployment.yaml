@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jenkins
+  namespace: jenkins
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jenkins
+  template:
+    metadata:
+      labels:
+        app: jenkins
+    spec:
+      containers:
+      - name: jenkins
+      image: jenkins/jenkins:lts-jdk17
+      ports:
+      - containerPort: 8080
+      - containerPort: 50000
+      resources:
+        requests:
+          memory: "512Mi"
+          cpu: "500m"
+        limits:
+          memory: "1Gi"
+          cpu: "500m"
+      volumeMounts:
+      - name: jenkins-data
+        mountPath: /var/jenkins_home
+      - name: docker-sock
+        mountPath: /var/run/docker.sock
+    volumes:
+    - name: jenkins-data
+      persistentVolumeClaim:
+        claimName: jenkins-pvc
+    - name: docker-sock
+      hostPath:
+        path: /var/run/docker.sock
+        # Jenkins Pod에 마운트한 이유는 Jenkins가 빌드할 때 Docker 명령어를 써야 하는데, 
+        # Jenkins는 컨테이너 안에 있어서 호스트(라즈베리파이)의 Docker 데몬에 접근할 수가 없어요. 
+        # 그래서 소켓 파일(/var/run/docker.sock) 을 컨테이너 안으로 공유해서 Jenkins가 호스트의 Docker를 직접 사용할 수 있게 하는 거예요.
+        
